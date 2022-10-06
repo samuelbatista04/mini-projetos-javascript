@@ -160,7 +160,7 @@ body {
 .banner {
     padding: 20px;
     display: flex;
-    height: 500px;
+    height: 550px;
 }
 
 .banner_col-1 {
@@ -169,13 +169,13 @@ body {
 }
 
 .banner_col-1 img {
-    width: 350px;
-    padding: 40px 0 0 0px;
+    width: 400px;
+    padding: 10px 0 0 0px;
 }
 
 .banner_col-2 {
     flex: 1 1 50%;
-    padding-top: 120px;
+    padding-top: 80px;
 
 }
 
@@ -190,6 +190,63 @@ body {
     font-style: italic;
     color: #fff;
     margin-bottom: 20px;
+}
+
+.cores {
+    display: flex;
+    margin: 10px 0 20px 0;
+    background: #fff;
+    border-radius: 5px;
+    width: 180px;
+    max-width: 100%;
+}
+
+.rosa {
+    margin: 10px;
+    background: #FF918E;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.preto {
+    margin: 10px;
+    background: #111;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.azul {
+    margin: 10px;
+    background: #363D51;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.branco {
+    margin: 10px;
+    background: #D3D3D5;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.rosa:hover,
+.preto:hover,
+.azul:hover,
+.branco:hover,
+.rosa:active,
+.preto:active,
+.azul:active,
+.branco:active {
+    border: 2px solid #fb8500;
 }
 
 .banner_col-2 button {
@@ -212,26 +269,27 @@ body {
 @media (max-width: 739px) {
     .bg-top {
         clip-path: polygon(100% 0, 100% 100%, 70% 98%, 0 100%, 0 0);
-
     }
 
     .banner {
-        height: 550px;
+        height: 600px;
         padding: 0px 20px;
     }
 
     .banner_col-1 {
         flex: 1 1 40%;
-
     }
 
     .banner_col-1 img {
         width: 200px;
-        padding: 40px 0 20px 0;
+        padding: 10px 0 20px 0;
         margin: 0 auto;
     }
 
     .banner_col-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         flex: 1 1 60%;
         padding-top: 10px;
 
