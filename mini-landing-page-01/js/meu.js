@@ -1,4 +1,5 @@
 const imgRelogio = document.querySelector('#img-relogio')
+
 const btnRosa = document.querySelector('#rosa')
 const btnPreto = document.querySelector('#preto')
 const btnAzul = document.querySelector('#azul')
