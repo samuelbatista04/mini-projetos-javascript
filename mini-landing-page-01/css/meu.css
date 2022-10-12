@@ -30,7 +30,7 @@ img {
 }
 
 button:active {
-    background: none;
+    background: transparent;
 }
 
 /* Fim CSS Reset */
