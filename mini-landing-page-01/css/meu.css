@@ -29,6 +29,10 @@ img {
     box-sizing: border-box;
 }
 
+button:active {
+    background: none;
+}
+
 /* Fim CSS Reset */
 
 /* Gerais */

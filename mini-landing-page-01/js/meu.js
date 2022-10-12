@@ -16,6 +16,11 @@ function iniciaModal(modalId) {
 
 btnLogin.addEventListener('click', () => iniciaModal('modal-container'))
 
+
+// Modal Comprar/Carrinho
+
+
+
 // Cores do relógio
 const imgRelogio = document.querySelector('#img-relogio')
 
