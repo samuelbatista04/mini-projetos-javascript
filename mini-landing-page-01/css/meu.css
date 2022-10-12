@@ -29,7 +29,8 @@ img {
     box-sizing: border-box;
 }
 
-button:active {
+button:active,
+button:focus {
     background: transparent;
 }
 
