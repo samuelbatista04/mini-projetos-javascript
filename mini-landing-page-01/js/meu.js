@@ -1,3 +1,22 @@
+// Modal Login
+const btnLogin = document.querySelector('#btn-login')
+
+
+function iniciaModal(modalId) {
+    const modal = document.getElementById(modalId)
+    if (modal) {
+        modal.classList.add('mostrar')
+        modal.addEventListener('click', (evento) => {
+            if (evento.target.id === 'fechar' || evento.target.id === modalId) {
+                modal.classList.remove('mostrar')
+            }
+        })
+    }
+}
+
+btnLogin.addEventListener('click', () => iniciaModal('modal-container'))
+
+// Cores do relógio
 const imgRelogio = document.querySelector('#img-relogio')
 
 const btnRosa = document.querySelector('#rosa')

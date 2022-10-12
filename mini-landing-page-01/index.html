@@ -33,7 +33,7 @@
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </nav>
-                <div class="btn-login">
+                <div class="btn-login" id="btn-login">
                     <a href="#"><button>Área do Cliente</button></a>
                 </div>
             </div>
@@ -115,6 +115,22 @@
     <footer class="footer">
         <a href="#">/* Desenvolvido por Samuel Batista */</a>
     </footer>
+
+    <div class="modal-container" id="modal-container">
+        <div class="modal" id="modal">
+            <div class="modal-col_1">
+                <img src="./img/apple.svg" alt="Logo Apple">
+                <button>Cadastrar</button>
+            </div>
+            <div class="modal-col_2">
+                <h3>Login</h3>
+                <input type="email" name="email" id="email" placeholder="Insira seu e-mail">
+                <input type="password" name="senha" id="senha" placeholder="Insira sua senha">
+                <button type="submit">Entrar</button>
+                <div class="fechar" id="fechar">x</div>
+            </div>
+        </div>
+    </div>
 
     <script src="./js/meu.js"></script>
 </body>
