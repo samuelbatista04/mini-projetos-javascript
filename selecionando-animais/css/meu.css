@@ -29,7 +29,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background: #240046;
-    min-height: 100vh;
+    height: 100vh;
     font-family: 'PT Sans', sans-serif;
     padding: 0px 10px;
 }
@@ -120,13 +120,15 @@ body {
 }
 
 .versos {
-    background: #e9ecef;
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    width: 90%;
-    min-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 900px;
+    max-width: 100%;
+    background: #f1faee;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .lista-versos p {
@@ -171,14 +173,11 @@ body {
     }
 
 
-    .versos {
-        margin: 10px 0;
-        padding: 20px 10px;
-
-    }
+    .versos {}
 
     .lista-versos p {
         font-size: 1.1em;
+        margin: 10px;
     }
 
 }
