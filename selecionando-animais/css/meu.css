@@ -176,6 +176,7 @@ body {
     .versos {
         flex: 1 1 100%;
         width: 300px;
+        min-height: 140px;
     }
 
     .lista-versos p {
