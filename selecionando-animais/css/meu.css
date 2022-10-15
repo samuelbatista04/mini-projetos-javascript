@@ -1,0 +1,185 @@
+/* Reset */
+body,
+h1,
+h2,
+ul,
+li,
+p,
+dd,
+dt,
+dl {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Fim Reset */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #240046;
+    min-height: 100vh;
+    font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+}
+
+.titulo {
+    color: #ff9e00;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    width: 900px;
+    max-width: 100%;
+    background: #f1faee;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.col-1 {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-botoes button {
+    width: 140px;
+    max-width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: #ff6d00;
+    border: 2px solid #5a189a;
+    color: #f6f6f6;
+    border-radius: 25px 5px 25px 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menu-botoes button:hover {
+    background: #5a189a;
+    transition: .6s;
+    border: 2px solid #ff6d00;
+}
+
+.col-2 {
+    flex: 1 1 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e9ecef;
+}
+
+.lista-animais img {
+    width: 400px;
+}
+
+#lista-animais li {
+    display: none;
+}
+
+#lista-animais li.ativo {
+    display: block !important;
+    animation: show .5s forwards;
+}
+
+#lista-versos li {
+    display: none;
+}
+
+#lista-versos li.ativo {
+    display: block !important;
+    animation: show .5s forwards;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.versos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    max-width: 100%;
+    background: #e9ecef;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.lista-versos p {
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+
+@media (max-width: 700px) {
+    body {
+        justify-content: flex-start;
+        padding-top: 5px;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: 1.5em;
+        flex: 1 1 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        flex: 1 1 100%;
+    }
+
+    .menu-botoes {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .menu-botoes button {
+        border-radius: 25px;
+        padding: 5px 10px;
+    }
+
+    .lista-animais img {
+        width: 300px;
+    }
+
+
+    .versos {
+        flex: 1 1 100%;
+        width: 300px;
+    }
+
+    .lista-versos p {
+        font-size: 1em;
+    }
+
+}
