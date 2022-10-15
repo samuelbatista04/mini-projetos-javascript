@@ -78,7 +78,7 @@ body {
 }
 
 .col-2 {
-    flex: 1;
+    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,21 +120,16 @@ body {
 }
 
 .versos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 800px;
-    max-width: 100%;
     background: #e9ecef;
-    border-radius: 10px;
-    margin: 10px;
+    text-align: center;
+    margin: 20px;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .lista-versos p {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
 }
 
@@ -146,17 +141,14 @@ body {
 
     .container {
         flex-direction: column;
-        flex: 1;
+        height: 500px;
     }
+
 
     .titulo {
         text-align: center;
         font-size: 1.2em;
         padding: 10px 0;
-    }
-
-    .col-1 {
-        flex: 1;
     }
 
     .menu-botoes {
@@ -172,22 +164,20 @@ body {
         padding: 5px 10px;
     }
 
-    .col-2 {
-        flex: 1;
-    }
-
     .lista-animais img {
         width: 300px;
     }
 
 
     .versos {
-        width: 350px;
-        height: 140px;
+        margin: 10px 0;
+        padding: 20px 10px;
+        min-height: 130px;
+
     }
 
     .lista-versos p {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
 }
