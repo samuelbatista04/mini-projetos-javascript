@@ -137,6 +137,22 @@ body {
     font-style: italic;
 }
 
+.creditos {
+    width: 300px;
+    background: #e9ecef;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.creditos a {
+    text-decoration: none;
+    color: #240046;
+}
+
 @media (max-width: 700px) {
     body {
         justify-content: flex-start;
