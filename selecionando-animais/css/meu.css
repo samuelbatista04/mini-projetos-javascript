@@ -156,7 +156,7 @@ body {
     }
 
     .col-1 {
-        flex: 1 1 200px;
+        flex: 1;
     }
 
     .menu-botoes {
@@ -173,7 +173,7 @@ body {
     }
 
     .col-2 {
-        flex: 1 1 300px;
+        flex: 1;
     }
 
     .lista-animais img {
@@ -183,7 +183,7 @@ body {
 
     .versos {
         width: 350px;
-        height: 150px;
+        height: 140px;
     }
 
     .lista-versos p {
