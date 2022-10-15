@@ -144,23 +144,19 @@ body {
         padding-top: 5px;
     }
 
-    .titulo {
-        text-align: center;
-        font-size: 1.5em;
-        flex: 1 1 100%;
-    }
-
     .container {
         flex-direction: column;
         flex: 1 1 100%;
     }
 
-    .col-1 {
-        flex: 1 1 200px;
+    .titulo {
+        text-align: center;
+        font-size: 1.2em;
+        flex: 1 1 20px;
     }
 
-    .col-2 {
-        flex: 1 1 300px;
+    .col-1 {
+        flex: 1 1 200px;
     }
 
     .menu-botoes {
@@ -174,6 +170,10 @@ body {
     .menu-botoes button {
         border-radius: 25px;
         padding: 5px 10px;
+    }
+
+    .col-2 {
+        flex: 1 1 300px;
     }
 
     .lista-animais img {
