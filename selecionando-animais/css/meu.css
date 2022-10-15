@@ -152,7 +152,7 @@ body {
     .titulo {
         text-align: center;
         font-size: 1.2em;
-        flex: 1 1 20px;
+        padding: 10px 0;
     }
 
     .col-1 {
